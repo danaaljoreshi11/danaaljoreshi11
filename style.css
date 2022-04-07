@@ -1,0 +1,55 @@
+header {
+  margin: 60px 25% 20px;
+}
+main {
+  margin: 10px 25% 10px;
+}
+.fillters > button {
+  border-radius: 25px;
+  background-color: blue;
+  color:aliceblue;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.active {
+  background-color: rebeccapurple !important;
+}
+.user-card {
+  border:solid;
+  border-radius: 25px;
+  padding: 20px;
+  height: 75px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid red;
+}
+.user-card p {
+  float: left;
+  margin-left: 20px;
+}
+.user-card div div:last-child {
+  float: right;
+}
+.custom-image {
+  float: left;
+  padding: 0px;
+  width: 65px;
+  height: 65px;
+  border: solid;
+  border-radius: 50%;
+  background-color: purple;
+  color:aliceblue;
+  position: relative;
+  text-align: center;
+}
+.custom-image span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+.par {
+  text-align: center;
+}
